@@ -42,3 +42,31 @@ console.log(loginUserMessage("Priya"));
 console.log(loginUserMessage("Rashi"));
 
 
+function calculateCartPrice(val1, val2,...num1){
+    return num1
+}
+console.log(calculateCartPrice(200, 300, 400,1000));
+
+const user = {
+    username: "Priya",
+    price: "199"
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price ia ${anyobject.price}`);
+}
+
+// handleObject(user)
+handleObject({
+    username: "Rashi",
+    price: "200"
+})
+
+const myNewArray = [200, 300, 400, 500]
+
+function retuenSecondValue(getArray){
+    return getArray[1]
+}
+
+// console.log(retuenSecondValue(myNewArray));
+console.log(retuenSecondValue([200, 300, 400, 500]));
